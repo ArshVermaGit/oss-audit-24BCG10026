@@ -24,7 +24,7 @@ HOME_DIR=$HOME                         # Get the home directory of the current u
 UPTIME=$(uptime -p 2>/dev/null || uptime)  # Get human-readable uptime; fallback if -p not supported
 
 # Get formatted date and time
-DATETIME=$(date '+%A, %d %B %Y, %H:%M:%S %Z')   # e.g. Saturday, 22 March 2026, 12:30:00 IST
+DATETIME=$(date '+%A, %d %B %Y, %H:%M:%S %Z')   # e.g. Saturday, 23 March 2026, 12:30:00 IST
 
 # Get Linux distribution name — try /etc/os-release first, then lsb_release, then uname
 if [ -f /etc/os-release ]; then
