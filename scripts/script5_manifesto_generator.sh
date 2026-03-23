@@ -78,7 +78,7 @@ echo "  Generating your manifesto..."
 echo ""
 
 # --- VARIABLES FOR MANIFESTO ---
-DATE=$(date '+%d %B %Y')                 # Formatted date, e.g. 22 March 2026
+DATE=$(date '+%d %B %Y')                 # Formatted date, e.g. 23 March 2026
 CURRENT_USER=$(whoami)                   # Get the current username for the filename
 OUTPUT="manifesto_${CURRENT_USER}.txt"   # Dynamic filename based on who is running the script
 
