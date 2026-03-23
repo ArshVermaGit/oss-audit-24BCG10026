@@ -251,7 +251,7 @@ echo "       End of System Identity Report            "
 echo "================================================"
 ```
 
-[INSERT SCREENSHOT: Terminal showing script running with sample output]
+![Script 1: System Identity Report Output](screenshots/script1_output.png)
 
 ---
 
@@ -411,7 +411,7 @@ echo "       End of FOSS Package Inspector         "
 echo "=============================================="
 ```
 
-[INSERT SCREENSHOT: Terminal showing script running with sample output]
+![Script 2: FOSS Package Inspector Output](screenshots/script2_output.png)
 
 ---
 
@@ -551,7 +551,7 @@ echo "       End of Disk and Permission Auditor    "
 echo "=============================================="
 ```
 
-[INSERT SCREENSHOT: Terminal showing script running with sample output]
+![Script 3: Disk and Permission Auditor Output](screenshots/script3_output.png)
 
 ---
 
@@ -675,7 +675,7 @@ echo "       End of Log File Analyzer             "
 echo "=============================================="
 ```
 
-[INSERT SCREENSHOT: Terminal showing script running with sample output]
+![Script 4: Log File Analyzer Output](screenshots/script4_output.png)
 
 ---
 
@@ -832,7 +832,7 @@ echo "=============================================="
 echo ""
 ```
 
-[INSERT SCREENSHOT: Terminal showing script running with sample output]
+![Script 5: Open Source Manifesto Generator Output](screenshots/script5_output.png)
 
 ---
 
