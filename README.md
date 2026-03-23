@@ -69,75 +69,22 @@ chmod +x scripts/*.sh
 ```
 oss-audit-24BCG10026/
 ├── README.md                              ← Project documentation (this file)
-├── PROJECT_REPORT.md                      ← Final technical project report
-├── report/
-│   └── oss_audit_report.md                ← Full 10,000-word audit report
-├── scripts/
-│   ├── script1_system_identity.sh         ← System Identity Report
-│   ├── script2_package_inspector.sh       ← FOSS Package Inspector
-│   ├── script3_disk_auditor.sh            ← Disk and Permission Auditor
-│   ├── script4_log_analyzer.sh            ← Log File Analyzer
-│   └── script5_manifesto_generator.sh     ← Open Source Manifesto Generator
-└── report/
-    └── oss_audit_report.pdf               ← Full project report (uploaded separately to VITyarthi)
+├── PROJECT_REPORT.md                      ← Final project report (full audit)
+└── scripts/
+    ├── script1_system_identity.sh         ← System Identity Report
+    ├── script2_package_inspector.sh       ← FOSS Package Inspector
+    ├── script3_disk_auditor.sh            ← Disk and Permission Auditor
+    ├── script4_log_analyzer.sh            ← Log File Analyzer
+    └── script5_manifesto_generator.sh     ← Open Source Manifesto Generator
 ```
 
 | Path | Description |
 |------|-------------|
 | `README.md` | Root-level project documentation with setup, run instructions, and script descriptions |
+| `PROJECT_REPORT.md` | The final full audit report (including the 10,000+ words of analysis) |
 | `scripts/` | Contains all five shell scripts required by the assignment |
-| `report/` | Reserved for the final compiled PDF report |
 
 ---
-
-## Environment Setup
-
-1. **Operating System:** Linux (Ubuntu 20.04+ or CentOS 7+ recommended). All scripts are tested on Ubuntu 22.04 LTS.
-
-2. **Required tools:** `bash` (version 4.0+), `git`, `coreutils` (provides `du`, `df`, `ls`, `date`, `uname`, `whoami`, `uptime`)
-
-3. **Install Git on Ubuntu / Debian:**
-   ```bash
-   sudo apt update
-   sudo apt install git -y
-   ```
-
-4. **Install Git on RHEL / CentOS / Fedora:**
-   ```bash
-   sudo yum install git -y
-   # or on newer Fedora:
-   sudo dnf install git -y
-   ```
-
-5. **Verify installation:**
-   ```bash
-   git --version
-   ```
-
-6. **Clone this repository:**
-   ```bash
-   git clone https://github.com/ArshVermaGit/oss-audit-24BCG10026.git
-   cd oss-audit-24BCG10026
-   ```
-   *(Replace `[YOUR GITHUB USERNAME]` with your actual GitHub username.)*
-
----
-
-## Making Scripts Executable
-
-```bash
-chmod +x scripts/script1_system_identity.sh
-chmod +x scripts/script2_package_inspector.sh
-chmod +x scripts/script3_disk_auditor.sh
-chmod +x scripts/script4_log_analyzer.sh
-chmod +x scripts/script5_manifesto_generator.sh
-```
-
-Or all at once:
-
-```bash
-chmod +x scripts/*.sh
-```
 
 ---
 
